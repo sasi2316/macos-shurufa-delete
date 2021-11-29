@@ -9,6 +9,6 @@
 
 1. 重启电脑。
 
-    > 注：如果删除失败，重复上面步骤，删除包含 `KeyboardLayout Name U.S.` 所有项。
+    > 注：如果删除失败，重复上面步骤，分别打开每个文件，删除所有包含 `KeyboardLayout Name U.S.` 的文件。
 
 ![I](https://i.imgur.com/JvzQHNH.png)
