@@ -2,9 +2,12 @@
 
 [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/V2EXPro) 
 
-使用第三方输入法时，常遇到中文状态却输出英文，来回切换多次很麻烦。除了禁用第三方输入法切换英文这个方法之外，还可以将自带的英文（ABC）删除来解决。
+使用第三方输入法时，常遇到中文状态时却输出英文，来回切换多次很麻烦。
 
-1. 打开 `~/Library/Preferences/` 路径，找到 `com.apple.HIToolbox.plist` 文件并用 [Xcode](https://apps.apple.com/cn/app/xcode/id497799835?mt=12) 软件打开。
+* 方法一：禁用第三方输入法切换英文，例如搜狗设置按键 - 状态切换 - 中英文 - 禁用快捷键，搜狗只输出中文，英文交给系统自带 ABC。
+* 方法二：将自带的英文 ABC 删除（步骤如下）。
+
+1. 前往 `~/Library/Preferences/` 文件夹，找到 `com.apple.HIToolbox.plist` 文件并用 [Xcode](https://apps.apple.com/cn/app/xcode/id497799835?mt=12) 软件打开。
 2. 找到 `AppleEnabledInputSources`，删除 `KeyboardLayout Name U.S.` 并保存。
 
 ![](https://i.imgur.com/oBdCPiO.png)
