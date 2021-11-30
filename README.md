@@ -12,7 +12,7 @@
 
 ![](https://i.imgur.com/oBdCPiO.png)
 
-1. 重启电脑。
+3. 重启电脑。
 
     > 注：如果删除失败，重复上面步骤，分别打开每个文件，删除所有包含 `KeyboardLayout Name U.S.` 的文件。
 
